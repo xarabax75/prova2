@@ -1,0 +1,106 @@
+Last login: Fri May  8 14:56:28 on ttys000
+You have new mail.
+ergosum@iMac-di-ergo ~ % ls
+12-caricare_da_file
+135-PandasGroupbyJoin-esempio.zip
+149-EsempiGraficiPython.zip
+158-Pandas
+158-Pandas.zip
+3.4-esempio_riepilogativo 2.py
+Applications
+Desktop
+Documents
+Downloads
+Dropbox
+EsempiGraficiPython.ipynb
+Library
+Machine Learning.ipynb
+Movies
+Music
+Pandas-esempio pratico di analisi dati.ipynb
+Pandas-esempio pratico di analisi dati.ipynb copia
+Pictures
+Postman
+Public
+Python richiami sulle espressioni lambda.ipynb
+RDD Caricare dati da file.ipynb
+Untitled.ipynb
+Untitled1.ipynb
+Untitled10.ipynb
+Untitled11.ipynb
+Untitled12.ipynb
+Untitled13.ipynb
+Untitled14.ipynb
+Untitled15.ipynb
+Untitled16.ipynb
+Untitled17.ipynb
+Untitled18.ipynb
+Untitled19.ipynb
+Untitled2.ipynb
+Untitled20.ipynb
+Untitled21.ipynb
+Untitled22.ipynb
+Untitled3.ipynb
+Untitled4.ipynb
+Untitled5.ipynb
+Untitled6.ipynb
+Untitled7.ipynb
+Untitled8.ipynb
+Untitled9.ipynb
+VirtualBox VMs
+analisiDati
+analisidati.ipynb
+archivio web
+dati.csv
+dati_borsa
+dati_borsa.csv
+dowj copia.csv
+dowj.csv
+git
+iCloud Drive (Archivio)
+jdk-13.0.2.jdk
+jdk-13.0.2_osx-x64_bin.tar.gz
+nuxtMio
+opt
+package-lock.json
+pippoProvaMia.ipynb
+prova.ipynb
+prova2
+pyspark-2.4.5-py_0.tar.bz2
+spark-3.0.0-preview2-bin-hadoop2.7.tgz.download
+tutti
+ergosum@iMac-di-ergo ~ % git checkout login_page2
+error: pathspec 'login_page2' did not match any file(s) known to git
+ergosum@iMac-di-ergo ~ % git checkout login_page3
+error: pathspec 'login_page3' did not match any file(s) known to git
+ergosum@iMac-di-ergo ~ % git branch login_page3  
+fatal: Not a valid object name: 'master'.
+ergosum@iMac-di-ergo ~ % cd prova2
+ergosum@iMac-di-ergo prova2 % git branch login_page3
+ergosum@iMac-di-ergo prova2 % git checkout login_page3
+M	file10.txt
+Switched to branch 'login_page3'
+ergosum@iMac-di-ergo prova2 % git branch              
+  carrello
+  login_page
+* login_page3
+  master
+  prova
+ergosum@iMac-di-ergo prova2 % git log                 
+commit 9f327e0cd36ba568c5a590423b3000b2ad9df077 (HEAD -> login_page3, prova, master, login_page)
+Author: xarabax <xarabax@gmail.com>
+Date:   Fri May 8 13:03:47 2020 +0200
+
+    appuinti commit
+ergosum@iMac-di-ergo prova2 % git checkout master     
+M	file10.txt
+Switched to branch 'master'
+ergosum@iMac-di-ergo prova2 % git merge login_page3
+Already up to date.
+ergosum@iMac-di-ergo prova2 % git log
+commit 9f327e0cd36ba568c5a590423b3000b2ad9df077 (HEAD -> master, prova, login_page3, login_page)
+Author: xarabax <xarabax@gmail.com>
+Date:   Fri May 8 13:03:47 2020 +0200
+
+    appuinti commit
+ergosum@iMac-di-ergo prova2 % branch master
